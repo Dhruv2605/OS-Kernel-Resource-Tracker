@@ -2,7 +2,7 @@
 
 A custom Linux kernel module and set of system calls designed to monitor and cap the resource usage of specific processes. 
 
-This robust project was implemented as a patch to the Linux Kernel (`v5.15` context) for the Operating Systems (OS) coursework (Assignment 1) at IIT Delhi.
+This robust project was implemented as a patch to the Linux Kernel (`v6.1.6` context) for the Operating Systems (OS) coursework (Assignment 1) at IIT Delhi.
 
 ## Architecture & Implementation
 The core functionality is introduced via a custom source file (`all_codes.c`) integrated into the kernel tree, and supported by modifications to the system call tables (`syscall_64.tbl`) and necessary kernel headers.
